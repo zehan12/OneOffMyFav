@@ -1,7 +1,7 @@
 # Most Common
 
 ## Redux 
-$${\color{red}## $\colorbox{green}{{\color{white}{This\ is\ a\ Big\ Title}}}$}$$
+### $\colorbox{red}{{\color{white}{Uncaught\ TypeError:\ Cannot\ read\ properties\ of\ undefined\ (reading\ 'getState')\ }}}$}$$
 ### solution:
 
 store come there not value
