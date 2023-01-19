@@ -33,8 +33,7 @@ store come there not value
     <Provider store={store}>
 ```
 
-## Redux
-# $\colorbox{white}{{\color{red}{Uncaught\ ReferenceError:\ useSelector\ is\ not\ defined\ }}}$
+# $\colorbox{white}{{\color{red}{Uncaught\ ReferenceError:\ useSelector\ is\ not\ of\ defined\ }}}$
 
 do not use useSelector on Main app  with Provider
 before
