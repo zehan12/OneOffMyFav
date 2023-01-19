@@ -36,8 +36,6 @@ store come there not value
 ## Redux
 # $\colorbox{white}{{\color{red}{Uncaught\ ReferenceError:\ useSelector\ is\ not\ defined\ }}}$
 
-Uncaught ReferenceError: useSelector is not defined
-
 do not use useSelector on Main app  with Provider
 before
 ```js 
