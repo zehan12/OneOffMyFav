@@ -35,6 +35,9 @@ store come there not value
 
 # $\colorbox{white}{{\color{red}{Uncaught\ ReferenceError:\ useSelector\ is\ not\ of\ defined\ }}}$
 
+#  $\colorbox{white}{{\color{red}{ReferenceError:\ useSelector\ is\ not\ defined\ }}}$
+
+
 do not use useSelector on Main app  with Provider
 before
 ```js 
