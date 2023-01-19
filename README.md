@@ -72,3 +72,8 @@ const Main = () => {
 }
 ```
 
+
+# net::ERR_CONNECTION_REFUSED 
+
+solution:
+server is not running
