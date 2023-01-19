@@ -33,3 +33,44 @@ store come there not value
     <Provider store={store}>
 ```
 
+## Redux
+# $\colorbox{white}{{\color{red}{Uncaught\ ReferenceError:\ useSelector\ is\ not\ defined\ }}}$
+
+Uncaught ReferenceError: useSelector is not defined
+
+do not use useSelector on Main app  with Provider
+before
+```js 
+import { Provider } from "react-redux";
+import { store } from "../store/store";
+
+const Main = () => {
+    const state = useSelector(state => state)
+    console.log(store)
+    return (
+        <Fragment>
+            <Provider store={store} >
+                <AllRoute />
+            </Provider>
+        </Fragment>
+    )
+}
+
+export default Main;
+```
+correct
+after
+```js
+const Main = () => {
+    const state = store.getState()
+    console.log(store)
+    return (
+        <Fragment>
+            <Provider store={store} >
+               <AllRoute />
+            </Provider>
+        </Fragment>
+    )
+}
+```
+
